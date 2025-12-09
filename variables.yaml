@@ -1,0 +1,53 @@
+- vars:
+      variable: "¿Explícame cuales son los tipos de declaración de variables en JavaScript?"
+  assert:
+      - type: contains
+        value: 'vat,let,const'
+
+- vars:
+      variable: "¿Explícame los tipos de funciones que hay en JavaScript?"
+  assert:
+      - type: contains
+        value: 'funcion declarada'
+
+- vars:
+      variable: "¿Explícame cuales son los tipos de eventos y su funcionamiento?"
+  assert:
+      - type: contains
+        value: 'click'
+
+
+- vars:
+      variable: "¿Explica como funcionan y para que sirven las promesas en JavaScript?"
+  assert:
+      - type: contains
+        value: 'tareas asincronas'
+
+
+- vars:
+      variable: "¿Explica como y para que sirven los objetos en JavaScript y cuando son utilizados?"
+  assert:
+      - type: contains
+        value: 'almacenar informacion'
+
+
+- vars:
+      variable: "¿Explícame como funciona y para que se utiliza la codificación en base 64 en JavaScript?"
+  assert:
+      - type: contains
+        value: 'enviar imagenes'
+
+
+
+- vars:
+      variable: "¿Explícame como funcionan y para que son utilizados los arreglos en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'multiples valores'
+
+
+- vars:
+      variable: "¿Explícame todo sobre cómo funciona el objeto Math en JavaScript y los distintos casos de uso?"
+  assert:
+      - type: contains
+        value: 'matematicas'

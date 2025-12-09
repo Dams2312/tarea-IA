@@ -3,24 +3,17 @@ description: 'Getting started'
 # Optionally set API keys here instead of exporting environment variables.
 # Never commit real keys to source control.
 env:
-  GEMINI_API_KEY: AIzaSyCicABasn0Lf7o8OlFTgyFh8Q65IzR1P5I
+  GEMINI_API_KEY: 
 
 prompts:
   - "./pronts.txt"
 
 providers:
-  - google:gemini-2.5-pro
+  - "google:gemini-2.5-pro"
 
 tests:
   - vars:
-      language: French
-      input: Hello world
+      variable: "variables"
     assert:
       - type: contains
-        value: 'Bonjour le monde'
-  - vars:
-      language: Spanish
-      input: Where is the library?
-    assert:
-      - type: icontains
-        value: 'Dónde está la biblioteca'
+        value: 'vat,let,const'
