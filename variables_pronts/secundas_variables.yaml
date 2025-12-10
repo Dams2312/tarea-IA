@@ -1,0 +1,103 @@
+- vars:
+      variable: "¿Explícame como funcionan los operadores de comparación en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'crear validaciones'
+
+
+- vars:
+      variable: "¿Explícame como funcionan los callback en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'funcion como argumento'
+
+
+- vars:
+      variable: "¿Explícame como funcionan los event loop en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'ejecuta tareas sincronas y asincronas'
+
+
+- vars:
+      variable: "¿Explícame como funciona el DOM en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'estructura de una pagina web'
+
+
+- vars:
+      variable: "¿Explícame como funciona el local Storage en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'espacio de almacenamiento'
+
+
+- vars:
+      variable: "¿Explícame como funciona JSON en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'pares-clave-valor'
+
+
+- vars:
+      variable: "¿Explícame como funciona Fetch API en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'solicitudes HTTP'
+
+
+- vars:
+      variable: "¿Explícame como funciona setTimeout en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'ejecutar codigo despues de un tiempo determinado'
+
+
+- vars:
+      variable: "¿Explícame como funciona el hoisting en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'declaracion de variables y funciones'
+
+
+- vars:
+      variable: "¿Explícame como funciona el operador spread (...) en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'expandir elementos de un arreglo u objeto'
+
+
+- vars:
+      variable: "¿Explícame como funcionan las template strings en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'interpolacion de variables'
+
+
+- vars:
+      variable: "¿Explícame como funciona la desestructuración en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'extraer valores de arreglos y objetos'
+
+
+- vars:
+      variable: "¿Explícame como funciona el objeto Date en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'manejo de fechas y horas'
+
+
+- vars:
+      variable: "¿Explícame como funciona try/catch en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'manejo de errores'
+
+
+- vars:
+      variable: "¿Explícame qué son los módulos import/export en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'organizar y reutilizar codigo'

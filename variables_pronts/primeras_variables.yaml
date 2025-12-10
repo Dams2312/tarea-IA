@@ -1,0 +1,102 @@
+- vars:
+      variable: "¿Explícame cuales son los tipos de declaración de variables en JavaScript?"
+  assert:
+      - type: contains
+        value: 'vat,let,const'
+
+- vars:
+      variable: "¿Explícame los tipos de funciones que hay en JavaScript?"
+  assert:
+      - type: contains
+        value: 'funcion declarada'
+
+- vars:
+      variable: "¿Explícame cuales son los tipos de eventos y su funcionamiento?"
+  assert:
+      - type: contains
+        value: 'click'
+
+
+- vars:
+      variable: "¿Explica como funcionan y para que sirven las promesas en JavaScript?"
+  assert:
+      - type: contains
+        value: 'tareas asincronas'
+
+
+- vars:
+      variable: "¿Explica como y para que sirven los objetos en JavaScript y cuando son utilizados?"
+  assert:
+      - type: contains
+        value: 'almacenar informacion'
+
+
+- vars:
+      variable: "¿Explícame como funciona y para que se utiliza la codificación en base 64 en JavaScript?"
+  assert:
+      - type: contains
+        value: 'enviar imagenes'
+
+
+
+- vars:
+      variable: "¿Explícame como funcionan y para que son utilizados los arreglos en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'multiples valores'
+
+
+- vars:
+      variable: "¿Explícame todo sobre cómo funciona el objeto Math en JavaScript y los distintos casos de uso?"
+  assert:
+      - type: contains
+        value: 'matematicas'
+
+
+- vars:
+      variable: "¿Explícame sobre como funciona JSON en JavaScript y los distintos casos de uso?"
+  assert:
+      - type: contains
+        value: 'formato de texto'
+
+
+- vars:
+      variable: "¿Explica sobre como funciona el objeto Date en JavaScript y los distintos casos de uso en proyectos de Java Script?"
+  assert:
+      - type: contains
+        value: 'fechas y horas'
+
+
+- vars:
+      variable: "¿Explícame como funcionan los operadores lógicos en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'condiciones'
+
+
+- vars:
+      variable: "¿Explícame como funciona el operador lógico ?? en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'null o undefined'
+
+
+- vars:
+      variable: "¿Explícame como funciona el operador XOR en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'valores diferentes'
+
+
+- vars:
+      variable: "¿Explícame como funciona el operador ternario en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'evaluar condiciones'
+
+
+- vars:
+      variable: "¿Explícame como funciona la evaluación con valores truthy y falsy en JavaScript y los distintos casos en que se usa en proyectos de JavaScript?"
+  assert:
+      - type: contains
+        value: 'verdadero o falso'

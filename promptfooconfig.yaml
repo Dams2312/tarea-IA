@@ -3,7 +3,7 @@ description: 'Getting started'
 # Optionally set API keys here instead of exporting environment variables.
 # Never commit real keys to source control.
 env:
-  GEMINI_API_KEY: 
+  GEMINI_API_KEY: AIzaSyDaFMprQosHRftQnRFWhbsHlaliTFw0ewI
 
 prompts:
   - "./pronts.txt"
@@ -11,9 +11,8 @@ prompts:
 providers:
   - "google:gemini-2.5-pro"
 
+concurrency: 1
+
 tests:
-  - vars:
-      variable: "variables"
-    assert:
-      - type: contains
-        value: 'vat,let,const'
+  - "./variables_pronts/primeras_variables.yaml"
+  - "./variables_pronts/secundas_variables.yaml"
